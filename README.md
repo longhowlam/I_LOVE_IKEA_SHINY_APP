@@ -22,11 +22,13 @@ So what steps are taken to get this app working?
 2. Use R Keras to put all images through a pretrained VGG16 network from which the top layers are removed. Each image is now a tensor, that we flatten to a vector (25.088 dimensional vector). So we end up with a 9000 by 25088 matrix.
 
 <p align="center">
-  <img src="vgg16_.png" width="350"/>
+  <img src="vgg16_.png" width="450"/>
 </p>
 
 3. For a new iamge: put it trough the same network, and flatten this to a 25088 dimensional vector as well. Now determine for that image the top 10 closest IKEA images, using for example cosine similarity.
 
 4. Present the reults in a Shiny App.
+
+5. A live running shiny app can be found [here](http://178.62.211.224:3838/sample-apps/I_LOVE_IKEA_SHINY_APP/), which I will probably close down by the end of 2017 because it costs me some money to keep up a droplet on Digital Ocean :-)
 
 
