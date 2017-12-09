@@ -7,11 +7,11 @@ The app helps IKEA customers to look for Ikea products by means of image search.
 
 
 <p align="center">
-  <img src="ikeaphoneapp1" width="350"/>
+  <img src="ikeaphoneapp1.png" width="350"/>
 </p>
 
 <p align="center">
-  <img src="ikeaphoneapp2" width="350"/>
+  <img src="ikeaphoneapp2.png" width="350"/>
 </p>
 
 
