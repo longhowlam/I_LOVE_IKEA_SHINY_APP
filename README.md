@@ -22,7 +22,7 @@ So what steps are taken to get this app working?
 2. Use R Keras to put all images through a pretrained VGG16 network from which the top layers are removed. Each image is now a tensor, that we flatten to a vector (25.088 dimensional vector). So we end up with a 9000 by 25088 matrix.
 
 <p align="center">
-  <img src="vgg16_.png" width="250"/>
+  <img src="vgg16_.png" width="350"/>
 </p>
 
 3. For a new iamge: put it trough the same network, and flatten this to a 25088 dimensional vector as well. Now determine for that image the top 10 closest IKEA images, using for example cosine similarity.
