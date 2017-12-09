@@ -18,12 +18,17 @@ library(text2vec)
 
 vgg16_notop = application_vgg16(weights = 'imagenet', include_top = FALSE)
 
-# normally not needed, but split into two matrices so 
+# Read in flattened tensors, they are stored as a matrix, each image is a row
+# each row corresponds to an ikea image
+
+# normally not needed, but the matrix is split into two matrices so 
 # that I can stay below the github file size restriction 
 ImageFeatures1 = readRDS("data/ImageFeaturesVGG16_1.RDs")
 ImageFeatures2 = readRDS("data/ImageFeaturesVGG16_2.RDs")
 ImageFeatures = rbind(ImageFeatures1, ImageFeatures2)
 
+# each image corresponds to a product at IKEA, this data set
+# stores the link to the product at the ikea website, the price and name of the product.
 ImageMetaData = readRDS("data/Allimages.RDs")
 
 ##### Addittional Helper Functions ############################################
