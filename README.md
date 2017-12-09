@@ -17,7 +17,7 @@ The app helps IKEA customers to look for Ikea products by means of image search.
 
 So what steps are taken to get this app working?
 
-1. Scrape IKEA website using R package rvest for product images, in total we have around 9000 scraped IKEA images.
+1. Scrape IKEA website using R package rvest for product images, in total we have around 9000 scraped IKEA images. The R code to scrape Ikea is also available on GitHub, see me [ikeaScraper](https://github.com/longhowlam/ikeaScraper) library.
 
 2. Use R Keras to put all images through a pretrained VGG16 network from which the top layers are removed. Each image is now a tensor, that we flatten to a vector (25.088 dimensional vector). So we end up with a 9000 by 25088 matrix.
 
