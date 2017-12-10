@@ -2,6 +2,10 @@
 
 This is [the Ikea hackaton](http://hackathon.ikea.com/) R Shiny app that we (I, Jos van Dongen and Thomas van Dongen) created on December 7,8,9 of 2017. The instructions for the app are quite simple, see images below. Our 3 minute pitch in [pdf](ILoveIkea.pdf) is also in this repo. 
 
+<p align="center">
+  <img src="teamikea.png" width="350"/>
+</p>
+
 
 The app helps IKEA customers to look for Ikea products by means of image search. Take a picture, upload it and you will get the top matching IKEA products back.
 
