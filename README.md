@@ -33,6 +33,6 @@ So what steps are taken to get this app working?
 
 4. Present the reults in a Shiny App.
 
-5. A live running shiny app can be found [here](http://178.62.211.224:3838/sample-apps/I_LOVE_IKEA_SHINY_APP/), which I will probably close down by the end of 2017 because it costs me some money to keep up a droplet on Digital Ocean :-)
+5. A live running shiny app can be found [here](http://145.131.21.163:3838/sample-apps/I_LOVE_IKEA_SHINY_APP/), which I will probably close down by the end of 2017 because it costs me some money to keep up a droplet on Digital Ocean :-)
 
 
