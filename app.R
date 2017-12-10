@@ -65,7 +65,8 @@ ui <- miniPage(
       miniContentPanel(
         fileInput('file1', 'Choose an image (max 5MB)'),
         numericInput("input_topN", "Show top N matches", value=7),
-        selectInput("typeselect", "help me out here", choices = list(), selected = 1)
+        selectInput("typeselect", "help me out here", choices = list(), selected = 1),
+        img(SRC="IkeaNew.jpg", height = 340)
       )
     ),
  
